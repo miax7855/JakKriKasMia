@@ -1,0 +1,46 @@
+﻿En liste over de emner/begreber fra faget Teknologi I anvender i jeres løsning med en kort beskrivende kommentar. Listen skal opbevares i jeres github-repository (se krav ovenfor).
+Beskrive hvordan teknologierne bruges, når brugerne skal bruge hjemmesiden.
+
+
+Hvilket netværk brugerne af hjemmesiden bruger, når de skal bruge vores hjemmeside. (LAN, WLAN, MAN, WAN)
+LAN:
+Local Area Network, netværk af devices i et begrænset område. Kan bestå af PC´er, printere, switches, routere og kabler imellem.
+Brugeren har sit eget LAN som vedkommende kobler sig på, for at få adgang til hjemmesiden.
+
+
+WLAN:
+Wireless Local Area Network er trådløs lokalt netværk af enheder hvor forbindelse oprettes via radiobølger i stedet for kabler.
+
+
+WAN: 
+Wide area network, strækker sig over store geografiske områder, internettet hører herunder.
+
+
+Hvilken topologi der bruges? (Bus, star, ring, mesh, tree, point-to-point)
+Star - I star topologi alle bruger er forbundet til hub eller switch.
+Hvilke lag I OSI-modellen der bruges?
+Physical, Data Link, Network, Transport, Session, Presentation og Application.
+Hvilke(n) enhed(er) bruges der? (hub, switch, router, (som bruger simple duplex, half duplex, full duplex))
+Router - Kabelforbindelse til router bruger full - duplex, mens trådløs forbindelse (802.11b/g) bruger half - duplex.
+Computer forbindelse til internet ved brug af LAN, WLAN og WAN - Først computeren forbindes til router ved brug af TCP/IP og spørger efter lokale IP adresse. Router svarer ved at sende lokale IP adresse tilbage til computer. Derefter router spørger efter IP adresse for at få forbindelse til internettet. Den får WAN IP adresse fra internetudbyder. Når man er på internettet skriver man URL adresse for at få adgang til forskellige websider.(?) 
+
+
+
+
+Listen over de emner/begreber fra faget Teknologi I anvender i jeres løsning skal opdateres.
+Uddyb forklaringen af de(n) protokol(ler) der bliver anvendt via jeres løsning (direkte eller indirekte)
+DNS (Dynamic Name System):
+Når brugeren skriver navnet på hjemmesiden ind i søgefeltet på sin webbrowser, vil computeren forsøge at koble sig på den server, DNS-serveren vil så tjekke sin egen database for at finde en matchende IP-adresse til det domænenavn man skrev ind. Når computeren finder IP-adressen kan brugerens computer kommunikere med hjemmesidens webserver. Hvis din web browser eller operativsystem ikke kan finde IP-adressen i sin egen cache hukommelse sender den anmodningen til en resolver server, som tjekker sin egen cache hukommelse for at finde IP-adressen. Hvis den heller ikke kan finde den sendes anmodningen videre til rod-serveren som sender resolver serveren til top-level domain serveren for den pågældende domæne. 
+Transmission Control Protocol (TCP): TCP leverer pålidelig og ordnet levering af data mellem 2 eller flere hosts. TCP er connection - oriented, som betyder at før data sendes, skal der oprettes en forbindelse mellem to værter ved brug af proces kaldet 3 - way handshake. Data forsendelse begynder kun når to hosts er forbundet og når den konkluderes, forbindelse afsluttes.  
+
+
+Dynamic Host Configuration Protocol (DHCP): Når enhed tændes, så netkortet begynder at søge om der er DHCP server på lokale netværk. Hvis der findes en, så vil netkortet spørge efter en IP adresse. Til sidst DHCP server svarer og sender en IP adresse til netkortet.
+
+
+HTTP (Hypertext Transfer Protocol): HTTP er client - server protokol, som betyder at modtageren sender “request” mens server svarer med det man kalder for “response”. 
+
+
+Databaser med SQLite
+
+
+Programmering/webdevelopment med Visual studio Code eller ASP.net core med Razorpages i Visual Studio 2019
